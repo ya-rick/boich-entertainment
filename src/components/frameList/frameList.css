@@ -1,0 +1,6 @@
+.frame-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 61px;
+}

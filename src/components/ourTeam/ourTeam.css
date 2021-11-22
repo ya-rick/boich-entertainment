@@ -1,0 +1,144 @@
+.our-team{
+    margin-top: 40px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 104px;
+    letter-spacing: -0.05em;
+    color: #F0F0F0;
+    margin-right: 30px;
+}
+
+.run-string{
+    width: 100%;
+}
+
+.slider{
+    width: 100%;
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 225px;
+    height: 242px;
+    filter: drop-shadow(0px 4px 7px #000000);
+}
+
+.title{
+    margin-top: 17px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #FCFCFF;
+}
+
+.position{
+    margin-top: 8px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #E0E1E3;
+}
+
+.center-img{
+    width: 400px;
+    height: 402px;
+
+    filter: drop-shadow(0px 4px 28px #000000);
+}
+
+.center-title{
+    margin-top: 17px;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+
+    color: #FCFCFF;
+}
+
+.center-position{
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #FCFCFF;
+}
+
+.phrase{
+    margin-top: 22px;
+
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #FCFCFF;
+
+    text-shadow: 0px 4px 7px rgba(185, 196, 255, 0.39);
+}
+
+.item-slider{
+    width: 225px;
+    height: 542px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-item{
+    height: 542px;
+    width: 400px;
+}
+
+.arrow{
+    margin: 0 -48px;
+    height: 72px;
+    width: 72px;
+    border-radius: 46px;
+    background: #BBD0C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-img{
+    height: 27px;
+    width: 16px;
+    fill: #BBD0C2 ;
+    background: #BBD0C2;
+}
+
+.center{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}

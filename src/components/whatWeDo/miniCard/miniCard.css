@@ -1,0 +1,43 @@
+.mini-card{
+    height: 334px;
+    width: 280px;
+    border: 1px solid #1C1D1F;
+    box-sizing: border-box;
+    padding: 15px 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mini-card-img{
+    height: 50%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-card-text{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+
+    text-align: center;
+}
+
+.mini-card-title{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.zone-img{
+    width: auto;
+    height: auto;
+}
