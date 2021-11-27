@@ -1,8 +1,9 @@
 .underline{
     width: 100%;
     display: flex;
+    align-self: end;
     align-items: center;
-    margin-top: 16%;
+    margin-top: 8%;
     gap: 16px;
 }
 

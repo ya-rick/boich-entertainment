@@ -3,80 +3,52 @@ import {useState, useEffect} from 'react';
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import Left from '../../images/left.svg';
 import Right from '../../images/right.svg';
-import img1 from '../../images/girl1.jpg';
-import img2 from '../../images/girl2.jpg';
-import img3 from '../../images/girl3.jpg';
-import img4 from '../../images/girl4.jpg';
-import img5 from '../../images/girl5.jpg';
-import img6 from '../../images/girl6.jpg';
-import img7 from '../../images/girl7.jpg';
-import img8 from '../../images/girl8.jpg';
-import img9 from '../../images/girl9.jpg';
-import img10 from '../../images/girl10.jpg';
+import img1 from '../../images/personal/Yaroslav.jpg';
+import img2 from '../../images/personal/Binkovsky.jpg';
+import img3 from '../../images/personal/Kit.jpg';
+import img4 from '../../images/personal/Oleksandr.jpg';
+import img5 from '../../images/personal/Mark.jpg';
+import img6 from '../../images/personal/Bandura.jpg';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '@splidejs/splide/dist/css/themes/splide-skyblue.min.css';
 
 const arr = [
     {
         img: img1,
-        title: 'Yaroslav',
+        title: 'Yaroslav Yarovy',
         position: 'Front-end developer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
+        phrase: 'Sometimes its better to stay home at night on Monday than to spend an entire week debugging the code written on Monday.'
     },
     {
         img: img2,
-        title: 'Oleksandr',
-        position: 'Mobile developer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
+        title: 'Dmytro Binkovskyi',
+        position: 'Full-stack developer',
+        phrase: "Measuring a programmers performance by counting lines of code is the same as measuring an aircraft's weight."
     },
     {
         img: img3,
-        title: 'Nikita',
-        position: 'Project manager',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
+        title: 'Valentyn Kit',
+        position: 'Front-end developer',
+        phrase: 'Debugging code is twice as difficult as writing it. So if you are writing code as cleverly as you can, you are by definition not smart enough to debug it.'
     },
     {
         img: img4,
-        title: 'Girl4',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
+        title: 'Oleksandr Litvin',
+        position: 'Mobile developer',
+        phrase: 'Many of you are familiar with the benefits of a programmer. There are only three of them, and it is clear: laziness, impatience and pride.'
     },
     {
         img: img5,
-        title: 'Girl5',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
+        title: 'Mark Shulmeyster',
+        position: 'Full-stack developer',
+        phrase: 'Always write the code as if it were accompanied by a violent psychopath who knows where you live.'
     },
     {
         img: img6,
-        title: 'Girl6',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
-    },
-    {
-        img: img7,
-        title: 'Girl7',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
-    },
-    {
-        img: img8,
-        title: 'Girl8',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
-    },
-    {
-        img: img9,
-        title: 'Girl9',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
-    },
-    {
-        img: img10,
-        title: 'Girl10',
-        position: 'Designer',
-        phrase: 'Small and diverse teams ensure all skills and expertise are available at every step in the cycle influencing.'
-    },
+        title: 'Taras Bandura',
+        position: 'Full-stack developer',
+        phrase: 'Programs should be written for the people who will read them, and the machines that will run these programs should be secondary.'
+    }
 ];
 
 function Item({img, title, position, phrase, center}) {
@@ -127,7 +99,8 @@ export default function Slider() {
                     type: 'loop',
                     padding: '5rem',
                     rewind: true,
-                    width: '75%',
+                    width: '85%',
+                    height: 'auto',
                     gap: '135px',
                     autoWidth: true,
                     autoHeight: true,

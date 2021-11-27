@@ -107,14 +107,14 @@
 
 .item-slider{
     width: 225px;
-    height: 542px;
+    height: 562px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .center-item{
-    height: 542px;
+    height: 562px;
     width: 400px;
 }
 
